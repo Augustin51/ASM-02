@@ -17,3 +17,7 @@ write_digit:
     mov rsi, rsp   
     mov rdx, 1     
     syscall
+
+    pop rbp
+    pop rbp
+    ret
