@@ -1,7 +1,7 @@
 global main
 
 main: 
-    mov rdi, 9
+    mov rdi, 6
     call write_digit
     ret
 
@@ -21,3 +21,4 @@ write_digit:
     pop rbp
     pop rbp
     ret
+
